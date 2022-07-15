@@ -1,0 +1,76 @@
+[
+    {
+        "footer": "footer",
+        "footerLogo": "/landingpage/img/vidlive-logo-sm-wt.png",
+        "footerDescription": "The easy way to embed live streams on your website and grow your audience.",
+        "footerCreate":
+        [
+    
+            { 
+                "page": "Embed Facebook Live on Website",
+                "link": "/create/embed-facebook-live-on-website"
+            },
+    
+            { 
+                "page": "Embed YouTube Live on Website",
+                "link": "/create/embed-youtube-live-on-website"
+            },
+    
+            { 
+                "page": "Live Stream Church Services",
+                "link": "/create/live-stream-church-services"
+            },
+    
+            { 
+                "page": "Facebook Live Wordpress Plugin",
+                "link": "/create/facebook-live-wordpress-plugin"
+            },
+    
+            { 
+                "page": "YouTube Live Wordpress Plugin",
+                "link": "/create/youtube-live-wordpress-plugin"
+            }
+    
+        ],
+        "footerCompany":
+        [
+            { 
+                "page": "Blog",
+                "link": "https://blog.vidlive.co/"
+            },
+            { 
+                "page": "Testimonials",
+                "link": "/testimonials"
+            },
+            { 
+                "page": "Pricing",
+                "link": "/pricing"
+            },
+            { 
+                "page": "Affiliate Program",
+                "link": "https://vidlive.getrewardful.com/signup"
+            }
+        ],
+        "footerSocial":
+        [
+            { 
+                "page": "Facebook",
+                "link": "https://www.facebook.com/vidliveco"
+            },
+            { 
+                "page": "YouTube",
+                "link": "https://www.youtube.com/channel/UCgzLFlikn6oMXWguZmIEiZQ"
+            },
+            { 
+                "page": "Twitter",
+                "link": "https://www.twitter.com/vidlive_co"
+            },
+            { 
+                "page": "Instagram",
+                "link": "https://www.instagram.com/vidliveco"
+            }
+        ]
+    
+    }
+
+]
