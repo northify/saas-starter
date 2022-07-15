@@ -1,7 +1,26 @@
 [
     {
-        "test": "Blog"
-
+        "logoRoute": "/",
+        "logoUrl": "/img/logo.png",
+        "logoAlt": "logo",
+        "navigation":
+        [
+            { 
+                "route": "/pricing",
+                "routeName": "Pricing"
+            },
+            { 
+                "route": "/company",
+                "routeName": "Company"
+            },
+            { 
+                "route": "/about",
+                "routeName": "About"
+            }
+        ],
+        "loginRoute": "/login",
+        "loginName": "Sign In",
+        "registerRoute": "/register",
+        "registerName": "Sign Up"
     }
-
 ]

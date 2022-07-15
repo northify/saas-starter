@@ -3,9 +3,9 @@
     <div class="relative bg-white">
         <div class="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
             <div class="flex justify-start lg:w-0 lg:flex-1">
-                <a href="{{ route('index') }}">
+                <a href="{{ $nav['logoRoute'] }}">
                     <span class="sr-only">{{ env('APP_NAME') }}</span>
-                    <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg" alt="">
+                    <img class="h-8 w-auto sm:h-10" src="{{ $nav['logoUrl'] }}" alt="{{ $nav['logoAlt'] }}">
                 </a>
             </div>
             <div class="-mr-2 -my-2 md:hidden">
@@ -18,13 +18,13 @@
                 </button>
             </div>
             <nav class="hidden md:flex space-x-10">
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Pricing </a>
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Partners </a>
-                <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Company </a>
+            @foreach($nav['navigation'] as $item)
+                <a href="{{ $item['route'] }}" class="text-base font-medium text-gray-500 hover:text-gray-900"> {{ $item['routeName'] }} </a>
+            @endforeach
             </nav>
             <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                <a href="{{ route('login') }}" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> Sign in </a>
-                <a href="{{ route('register') }}" class="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700"> Sign up </a>
+                <a href="{{ $nav['loginRoute'] }}" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> {{ $nav['loginName'] }} </a>
+                <a href="{{ $nav['registerRoute'] }}" class="ml-8 whitespace-nowrap inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-indigo-700"> {{ $nav['registerName'] }} </a>
             </div>
         </div>
 
