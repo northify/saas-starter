@@ -43,13 +43,13 @@
     <body>
         <div class="bg-gray-50">
             <header>
-                @include('Landing.Layout.nav')
+                @include('Marketing.Landing.Layout.nav')
             </header>
             <main>
                 @yield('content')
             </main>
             <footer class="mt-24 bg-gray-900 sm:mt-12">
-                @include('Landing.Layout.footer')
+                @include('Marketing.Landing.Layout.footer')
             </footer>
         </div>
     </body>

@@ -6,16 +6,16 @@
         "navigation":
         [
             { 
+                "route": "/products",
+                "routeName": "Products"
+            },
+            { 
                 "route": "/pricing",
                 "routeName": "Pricing"
             },
             { 
-                "route": "/company",
-                "routeName": "Company"
-            },
-            { 
-                "route": "/about",
-                "routeName": "About"
+                "route": "blog.website.com",
+                "routeName": "Blog"
             }
         ],
         "loginRoute": "/login",
