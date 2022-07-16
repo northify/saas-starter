@@ -72,7 +72,7 @@
         [
             { 
                 "page": "Blog",
-                "link": "https://blog.vidlive.co/"
+                "link": "https://blog.starter.com"
             },
             { 
                 "page": "Help Center",
@@ -84,7 +84,7 @@
         [
             { 
                 "page": "Contact",
-                "link": "mailto:someone@yoursite.com?subject=Help Request"
+                "link": "mailto:hello@starter.com?subject=Help Request"
             },
             { 
                 "page": "Privacy",

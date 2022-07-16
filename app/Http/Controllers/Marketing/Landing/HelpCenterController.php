@@ -6,21 +6,21 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Marketing\LandingPage;
 
-class IndexController extends Controller
+class HelpCenterController extends Controller
 {
 
     /**
-     * Landing Page index.
+     * Help Center.
      */
-    public function index()
+    public function helpCenter()
     {
         // Get page data
         $meta = collect(LandingPage::getMetaData())->first();
         $nav = collect(LandingPage::getNavigationData())->first();
-        $content = collect(LandingPage::getIndexData())->first();
+        $content = collect(LandingPage::getHelpCenterData())->first();
         $footer = collect(LandingPage::getFooterData())->first();
         // Return page data
-        return view('Marketing.Landing.Index.index', compact('meta', 'nav', 'content', 'footer'));
+        return view('Marketing.Landing.HelpCenter.index', compact('meta', 'nav', 'content', 'footer'));
 
     }
 

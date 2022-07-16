@@ -17,7 +17,7 @@ class ProductsController extends Controller
         // Get page data
         $meta = collect(LandingPage::getMetaData())->first();
         $nav = collect(LandingPage::getNavigationData())->first();
-        $content = collect(LandingPage::getContentData())->first();
+        $content = collect(LandingPage::getProductData())->first();
         $footer = collect(LandingPage::getFooterData())->first();
         // Return page data
         return view('Marketing.Landing.Products.index', compact('meta', 'nav', 'content', 'footer'));

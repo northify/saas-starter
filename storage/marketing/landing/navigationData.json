@@ -14,7 +14,7 @@
                 "routeName": "Pricing"
             },
             { 
-                "route": "blog.website.com",
+                "route": "https://blog.starter.com",
                 "routeName": "Blog"
             }
         ],
