@@ -53,6 +53,21 @@ class LandingPage extends Model
     }
 
     /**
+     * Get Content data.
+     */
+    public static function getPricingData() 
+    {
+        // Get json data file
+        $json = Storage::disk('marketing')->get('landing/pricingData.json');
+        // Get json data
+        $json = json_decode($json, true);
+        // Convert json to array
+        $json = array_filter($json);
+        // Return data
+        return $json;
+    }
+
+    /**
      * Get Footer data.
      */
     public static function getFooterData() 
