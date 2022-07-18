@@ -2,15 +2,18 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Landing pages
-Route::get('/', 'App\Http\Controllers\Marketing\Landing\IndexController@index')->name('index');
-Route::get('/products', 'App\Http\Controllers\Marketing\Landing\ProductsController@products')->name('products');
-Route::get('/pricing', 'App\Http\Controllers\Marketing\Landing\PricingController@pricing')->name('pricing');
-Route::get('/help-center', 'App\Http\Controllers\Marketing\Landing\HelpCenterController@helpCenter')->name('helpCenter');
-Route::get('/testimonials', 'App\Http\Controllers\Marketing\Landing\ExtendedPagesController@testimonials')->name('testimonials');
-Route::get('/privacy', 'App\Http\Controllers\Marketing\Landing\ExtendedPagesController@privacy')->name('privacy');
-Route::get('/terms', 'App\Http\Controllers\Marketing\Landing\ExtendedPagesController@terms')->name('terms');
-// Marketing page
+// MARKETING PAGES
+// Landing
+Route::get('/', 'App\Http\Controllers\Marketing\Landing\IndexController@index');
+Route::get('/products', 'App\Http\Controllers\Marketing\Landing\ProductsController@products');
+Route::get('/pricing', 'App\Http\Controllers\Marketing\Landing\PricingController@pricing');
+Route::get('/help-center', 'App\Http\Controllers\Marketing\Landing\HelpCenterController@helpCenter');
+Route::get('/testimonials', 'App\Http\Controllers\Marketing\Landing\ExtendedPagesController@testimonials');
+Route::get('/privacy', 'App\Http\Controllers\Marketing\Landing\ExtendedPagesController@privacy');
+Route::get('/terms', 'App\Http\Controllers\Marketing\Landing\ExtendedPagesController@terms');
+
+// Product
+Route::get('/create/{slug}', 'App\Http\Controllers\Marketing\Create\IndexController@index');
 
 
 // Auth
