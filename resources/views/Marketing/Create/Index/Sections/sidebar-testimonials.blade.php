@@ -12,7 +12,14 @@
             @foreach($content['testimonials'] as $selectedTestimonials)
                 @if($testimonial['id'] == $selectedTestimonials['id'])
                 <div class="text-left" x-show.immediate="testimonialActive === {{ $testimonial['id'] }}">
-                    <div x-show.transition="testimonialActive == {{ $testimonial['id'] }}">
+                    <div x-show.transition.scale="testimonialActive == {{ $testimonial['id'] }}"
+                        x-transition:enter="transition ease-out duration-300"
+                        x-transition:enter-start="opacity-0 scale-90"
+                        x-transition:enter-end="opacity-100 scale-100"
+                        x-transition:leave="transition ease-in duration-300"
+                        x-transition:leave-start="opacity-100 scale-100"
+                        x-transition:leave-end="opacity-0 scale-90"
+                    >
                         <p class="mt-5 text-2xl text-gray-900 italic font-light tracking-wide leading-normal">
                             {{ $testimonial['testimonial1'] }}
                         </p>

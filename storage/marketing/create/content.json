@@ -12,9 +12,9 @@
     "heroImage": "/img/vidlive-hero-image-church.png",
     "heroImageAlt": "VidLive widget example with previous video carousel.",
     "sideNavTitle": "Embed Facebook Live",
-    "introTitle": "Live stream on your website with Facebook Live.",
-    "introSubTitle": "Do you live stream from Facebook?  Would you like be able to auto-embed Facebook Live on your website? Well, you’ve come to the right place!",
-        "introFeatureList":
+    "featureTitle": "Live stream on your website with Facebook Live.",
+    "featureSubTitle": "Do you live stream from Facebook?  Would you like be able to auto-embed Facebook Live on your website? Well, you’ve come to the right place!",
+        "featureList":
         [
             { 
                 "title": "Live on your website", 
@@ -111,9 +111,9 @@
     "heroImage": "/img/vidlive-hero-image-church.png",
     "heroImageAlt": "VidLive widget example with previous video carousel.",
     "sideNavTitle": "Embed YouTube Live",
-    "introTitle": "Live stream on your website with YouTube Live.",
-    "introSubTitle": "Do you live stream from YouTube?  Would you like be able to auto-embed YouTube Live on your website? Well, you’ve come to the right place!",
-        "introFeatureList":
+    "featureTitle": "Live stream on your website with YouTube Live.",
+    "featureSubTitle": "Do you live stream from YouTube?  Would you like be able to auto-embed YouTube Live on your website? Well, you’ve come to the right place!",
+        "featureList":
         [
             { 
                 "title": "Live on your website", 
@@ -210,9 +210,9 @@
     "heroImage": "/img/vidlive-hero-image-church.png",
     "heroImageAlt": "VidLive widget example with previous video carousel.",
     "sideNavTitle": "Live Stream Church Services",
-    "introTitle": "Stream church services on your website with Facebook Live.",
-    "introSubTitle": "Do you live stream church services on Facebook?  Would to like to reach the 30% of your parishioners that do not have Facebook by embedding your church services on your website? Well, you’ve come to the right place!",
-        "introFeatureList":
+    "featureTitle": "Stream church services on your website with Facebook Live.",
+    "featureSubTitle": "Do you live stream church services on Facebook?  Would to like to reach the 30% of your parishioners that do not have Facebook by embedding your church services on your website? Well, you’ve come to the right place!",
+        "featureList":
         [
             { 
                 "title": "Live on your website", 
@@ -309,9 +309,9 @@
     "heroImage": "/img/vidlive-hero-image-church.png",
     "heroImageAlt": "VidLive widget example with previous video carousel.",
     "sideNavTitle": "Facebook Live Wordpress Plugin",
-    "introTitle": "Live stream on your WordPress website with Facebook Live.",
-    "introSubTitle": "Do you live stream from Facebook?  Would you like be able to auto-embed Facebook Live on your WordPress website? Well, you’ve come to the right place!",
-        "introFeatureList":
+    "featureTitle": "Live stream on your WordPress website with Facebook Live.",
+    "featureSubTitle": "Do you live stream from Facebook?  Would you like be able to auto-embed Facebook Live on your WordPress website? Well, you’ve come to the right place!",
+        "featureList":
         [
             { 
                 "title": "Live on your website", 
@@ -412,9 +412,9 @@
     "heroImage": "/img/vidlive-hero-image-church.png",
     "heroImageAlt": "VidLive widget example with previous video carousel.",
     "sideNavTitle": "YouTube Live Wordpress Plugin",
-    "introTitle": "Live stream on your WordPress website with YouTube Live.",
-    "introSubTitle": "Do you live stream from YouTube?  Would you like be able to auto-embed YouTube Live on your WordPress website? Well, you’ve come to the right place! Does NOT require the 1000 follower minimum.",
-        "introFeatureList":
+    "featureTitle": "Live stream on your WordPress website with YouTube Live.",
+    "featureSubTitle": "Do you live stream from YouTube?  Would you like be able to auto-embed YouTube Live on your WordPress website? Well, you’ve come to the right place! Does NOT require the 1000 follower minimum.",
+        "featureList":
         [
             { 
                 "title": "Live on your website", 

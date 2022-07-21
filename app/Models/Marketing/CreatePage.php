@@ -25,17 +25,17 @@ class CreatePage extends Model
     }
 
 
-    private function getTestimonialData()
+    public static function getTestimonialData()
     {
         
         // Get json data file
-        $json = Storage::disk('local')->get('create/testimonials.json');
+        $json = Storage::disk('marketing')->get('testimonials.json');
         // Get json data
         $json = json_decode($json, true);
         // Convert json to array
         $json = array_filter($json);
 
-        return $data;
+        return $json;
 
          
     }

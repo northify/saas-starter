@@ -2,7 +2,18 @@
     {
         "contentMetaTitle": "VidLive | Embed Live Facebook, YouTube Feed To Your Website",
         "contentMetaDescription": "One Time Embed — Automatically Embed Your Live Facebook, YouTube Stream Video On Your Website. Just Add Our Embed Once and You're Done! Give It A Try.",
-        "contentMetaImage": "/landingpage/img/hero-live3.png"
+        "contentMetaImage": "/landingpage/img/hero-live3.png",
+        "heroTitle1": "Automatically Embed",
+        "heroTitle2": "Live Video",
+        "heroTitle3": "on Your Website",
+        "heroSubTitle": "Copying and pasting embed codes every time you go live is a hassle.",
+        "heroSubTitle2": "Add our embed once and you're done.",
+        "heroSubTitle3": "One Time Embed!",
+        "heroSubTitle4": "Live Demo",
+        "providerImage": "/img/provider-logos.png",
+        "providerImageAlt": "VidLive works with Facebook Live, YouTube Live, and Twitch.",
+        "heroImage": "/img/vidlive-hero-image.png",
+        "heroImageAlt": "VidLive widget example with previous video carousel."
     }
 
 ]

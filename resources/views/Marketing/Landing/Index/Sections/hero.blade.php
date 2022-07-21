@@ -1,78 +1,64 @@
-<div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
-	<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
-		<div>
-			<div class="mt-6">
-				<div>
-					<a href="#" class="inline-flex space-x-4">
-						<span class="rounded bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-500 tracking-wide uppercase"> What's new </span>
-						<span class="inline-flex items-center text-sm font-medium text-rose-500 space-x-1">
-							<span>Just shipped version 0.1.0</span>
-							<!-- Heroicon name: solid/chevron-right -->
-							<svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+<div class="bg-blue-600">
+	<div class="relative overflow-hidden">
+		<div class="absolute inset-0">
+			<img alt="" src="/img/hero-background.jpg" width="2245" height="1636" decoding="async" data-nimg="future" class="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-49%]">
+		</div>
+		<div class="relative pt-6 pb-10">
+			<div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 text-white">
+				<div class="text-center">
+					<h1 class="block mb-4 text-4xl tracking-tight font-bold sm:text-5xl md:text-6xl">
+						Social 
+						<span class="relative whitespace-nowrap text-[#ffbf02]">
+							<svg aria-hidden="true" viewBox="0 0 418 42" class="absolute top-2/3 left-0 h-[0.58em] w-full fill-blue-300/50" preserveAspectRatio="none">
+								<path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z"></path>
 							</svg>
+							<span class="relative">Video Widgets</span>
 						</span>
-					</a>
+						  for Your Website</span>
+					</h1>
+					
+					<p class="mt-8 max-w-md mx-auto text-xl text-blue-100 font-light md:text-2xl md:max-w-3xl">
+						Copying and pasting embed codes every time you go live is a hassle. Add our embed once and you're done. One Time Embed!
+					</p>
+					<p class="mx-auto max-w-2xl block mt-12 text-3xl  text-white rounded-md pb-2 pt-1">
+						Oh... and it works with your 
+						<span class="bg-red-500 px-2 py-0.5 rounded text-white text-2xl border-solid border-2 border-white font-medium">LIVE</span> 
+						Streams too.
+					</p>
 				</div>
-				<div class="mt-6 sm:max-w-xl">
-					<h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Issue management for growing teams</h1>
-					<p class="mt-6 text-xl text-gray-500">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
-				</div>
-				<form action="#" class="mt-12 sm:max-w-lg sm:w-full sm:flex">
-					<div class="min-w-0 flex-1">
-						<label for="hero-email" class="sr-only">Email address</label>
-						<input id="hero-email" type="email" class="block w-full border border-gray-300 rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-rose-500 focus:ring-rose-500" placeholder="Enter your email">
-					</div>
-					<div class="mt-4 sm:mt-0 sm:ml-3">
-							<button type="submit" class="block w-full rounded-md border border-transparent px-5 py-3 bg-rose-500 text-base font-medium text-white shadow hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10">Notify me</button>
-					</div>
-				</form>
-				<div class="mt-6">
-					<div class="inline-flex items-center divide-x divide-gray-300">
-						<div class="flex-shrink-0 flex pr-5">
-							<!-- Heroicon name: solid/star -->
-							<svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-							</svg>
-							<!-- Heroicon name: solid/star -->
-							<svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-							</svg>
-							<!-- Heroicon name: solid/star -->
-							<svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-							</svg>
-							<!-- Heroicon name: solid/star -->
-							<svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-							</svg>
-							<!-- Heroicon name: solid/star -->
-							<svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-							</svg>
-						</div>
-						<div class="min-w-0 flex-1 pl-5 py-1 text-sm text-gray-500 sm:py-3"><span class="font-medium text-gray-900">Rated 5 stars</span> by over <span class="font-medium text-rose-500">500 beta users</span></div>
+			</div>
+		</div>
+		<div class="relative">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6">
+				<div class="relative">
+					<div class="relative max-w-7xl mx-auto pb-24 sm:px-6 lg:px-8">
+						<!-- Hero Tabs -->
+						@include('Marketing.Landing.Index.Sections.__heroTabs')
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="sm:mx-auto sm:max-w-3xl sm:px-6">
-		<div class="py-12 sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-			<div class="hidden sm:block">
-				<div class="absolute inset-y-0 left-1/2 w-screen bg-gray-50 rounded-l-3xl lg:left-80 lg:right-0 lg:w-full"></div>
-					<svg class="absolute top-8 right-1/2 -mr-3 lg:m-0 lg:left-0" width="404" height="392" fill="none" viewBox="0 0 404 392">
-						<defs>
-						<pattern id="837c3e70-6c3a-44e6-8854-cc48c737b659" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-							<rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
-						</pattern>
-						</defs>
-						<rect width="404" height="392" fill="url(#837c3e70-6c3a-44e6-8854-cc48c737b659)" />
-					</svg>
-			</div>
-			<div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
-				<img class="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/task-app-rose.jpg" alt="">
+	<div class="bg-gray-800">
+		<div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+			<h2 class="text-center text-gray-400 text-sm font-semibold uppercase tracking-wide">Trusted by over 26,000 forward-thinking companies</h2>
+			<div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+				<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+					<img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
+				</div>
+				<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+					<img class="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage">
+				</div>
+				<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+					<img class="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit">
+				</div>
+				<div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
+					<img class="h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor">
+				</div>
+				<div class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
+					<img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation">
+				</div>
 			</div>
 		</div>
 	</div>

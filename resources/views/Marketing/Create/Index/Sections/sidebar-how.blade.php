@@ -1,4 +1,4 @@
-<section id="howto" class="text-gray-600 py-8">
+<section id="how" class="text-gray-600 py-8">
 	<h3 class="mb-1 text-2xl md:text-3xl font-bold leading-tight text-gray-900">{{ $content['howToTitle'] }}</h3>
 	<p class="mb-4 text-base text-gray-700">{{ $content['howToSubTitle'] }}</p>
 							

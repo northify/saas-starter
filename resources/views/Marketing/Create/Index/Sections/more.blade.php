@@ -5,18 +5,14 @@
             <p class="font-normal text-base mt-4 text-center text-gray-900 tracking-wide">{{ $content['moreSubTitle'] }}</p>
         </div>
         <img src="{{ $content['moreImage'] }}" class="z-20 border-0 inline-block leading-5 mt-0 max-w-full object-contain px-3 text-gray-800 align-middle" alt="{{ $content['moreImageAlt'] }}" />
-        <div class="bg-no-repeat bg-cover box-border leading-5 overflow-visible absolute text-gray-800 z-0"
-            style='will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1.1322, 1.1322, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; inset: 0px; background-image: url("/landingpage/img/more-than-circles.svg"); background-position: 50% 50%; quotes: auto;'>
-        </div>
     </div>
     <div class="flex flex-col items-center justify-center mb-20 mt-20">
         {{-- Button --}}
-        <a class="inline-flex items-center justify-center mb-2 btn-primary btn-lg rounded-full py-3 pl-6 pr-2 sm:w-auto sm:mb-0" @auth href="{{ route('home') }}" @else href="{{ route('register') }}" @endauth >
+        <a class="inline-flex items-center justify-center w-full mb-2 bg-blue-600 text-white rounded-full py-3 pl-6 pr-2 sm:w-auto sm:mb-0" @auth href="{{ route('home') }}" @else href="{{ route('register') }}" @endauth >
             <span class="text-xl mr-3">@auth Dashboard @else Get Started Now @endauth</span>
-            <span class="fa-stack fa-lg">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fas fa-arrow-right fa-stack-1x fa-inverse text-primary"></i>
-            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
         </a>
     </div>
 </div>

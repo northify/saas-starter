@@ -1,8 +1,8 @@
 [
     {
         "logoRoute": "/",
-        "logoUrl": "https://tailwindui.com/img/logos/workflow-mark-gray-300.svg",
-        "logoAlt": "logo",
+        "logoUrl": "/img/logos/embedvidio-logo-text-wt.png",
+        "logoAlt": "EmbedVidio Logo",
         "navigation":
         [
             { 

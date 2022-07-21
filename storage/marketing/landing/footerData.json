@@ -1,7 +1,7 @@
 [
     {
-        "footerLogo": "https://tailwindui.com/img/logos/workflow-mark-gray-300.svg",
-        "footerLogoAlt": "Logo Alt",
+        "footerLogo": "/img/logos/embedvidio-logo-text-wt.png",
+        "footerLogoAlt": "EmbedVidio Logo",
         "footerDescription": "The easy way to embed live streams on your website and grow your audience.",
         "footerSocial":
         [
@@ -30,27 +30,27 @@
         "colOneList":
         [
             { 
-                "page": "Marketing 1",
-                "link": "/create/"
+                "page": "Embed Facebook Live on Website",
+                "link": "/create/embed-facebook-live-on-website"
             },
     
             { 
-                "page": "Marketing 2",
-                "link": "/create/"
+                "page": "Embed YouTube Live on Website",
+                "link": "/create/embed-youtube-live-on-website"
             },
     
             { 
-                "page": "Marketing 3",
-                "link": "/create/"
+                "page": "Live Stream Church Services",
+                "link": "/create/live-stream-church-services"
             },
     
             { 
-                "page": "Marketing 4",
-                "link": "/create/"
+                "page": "Facebook Live Wordpress Plugin",
+                "link": "/create/facebook-live-wordpress-plugin"
             },
     
             { 
-                "page": "Marketing 5",
+                "page": "YouTube Live Wordpress Plugin",
                 "link": "/create/youtube-live-wordpress-plugin"
             }
     
