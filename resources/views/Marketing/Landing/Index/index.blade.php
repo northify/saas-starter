@@ -5,7 +5,7 @@
     <!-- Hero section -->
     @include('Marketing.Landing.Index.Sections.hero')
     <!-- Testimonial/stats section -->
-    @include('Marketing.Landing.Index.Sections.testimonials')
+    @include('Marketing.Landing.Index.Sections.features')
     <!-- Logo cloud section -->
     @include('Marketing.Landing.Index.Sections.logos')
     <!-- CTA section -->
