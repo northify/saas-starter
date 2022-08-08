@@ -38,10 +38,10 @@
 					>
 					<h3 class="font-display text-lg focus:outline-none lg:text-white">
 						<span class="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl"></span>
-						Payroll
+						{{ $content['featuresTab1Title'] }}
 					</h3>
 					<p class="mt-2 hidden text-sm lg:block text-blue-100 group-hover:text-white">
-						Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.
+						{{ $content['featuresTab1SubTitle'] }}
 					</p>
 				</div>
 			</div>
@@ -60,10 +60,10 @@
 					>
 					<h3 class="font-display text-lg focus:outline-none lg:text-white">
 						<span class="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl"></span>
-						Claim Expences
+						{{ $content['featuresTab2Title'] }}
 					</h3>
 					<p class="mt-2 hidden text-sm lg:block text-blue-100 group-hover:text-white">
-						All of your receipts organized into one place, as long as you don't mind typing in the data by hand.
+						{{ $content['featuresTab2SubTitle'] }}
 					</p>
 				</div>
 			</div>
@@ -82,10 +82,10 @@
 					>
 					<h3 class="font-display text-lg focus:outline-none lg:text-white">
 						<span class="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl"></span>
-						VAT Handeling
+						{{ $content['featuresTab3Title'] }}
 					</h3>
 					<p class="mt-2 hidden text-sm lg:block text-blue-100 group-hover:text-white">
-						We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.
+						{{ $content['featuresTab3SubTitle'] }}
 					</p>
 				</div>
 			</div>
@@ -105,10 +105,10 @@
 					<h3>
 						<h3 class="font-display text-lg focus:outline-none lg:text-white">
 						<span class="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl"></span>
-						Reporting
+						{{ $content['featuresTab1Title'] }}
 					</h3>
 					<p class="mt-2 hidden text-sm lg:block text-blue-100 group-hover:text-white">
-						Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.
+						{{ $content['featuresTab4SubTitle'] }}
 					</p>
 				</div>
 			</div>
@@ -129,12 +129,12 @@
 			<div class="relative sm:px-6 lg:hidden">
 				<div class="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl"></div>
 				<p class="relative mx-auto max-w-2xl text-base text-white sm:text-center">
-					Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.
+					{{ $content['featuresTab1SubTitle'] }}
 				</p>
 			</div>
 
 			<div class="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
-				<img alt="" src="https://salient.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpayroll.517af4e7.png&w=1200&q=75" width="2174" height="1464" decoding="async" data-nimg="future" class="w-full">
+				<img alt="" src="/img/{{ $content['featuresTab1Img'] }}" width="2174" height="1464" decoding="async" data-nimg="future" class="w-full">
 			</div>
         </section>
 		<!-- Panel 2 -->
@@ -147,11 +147,11 @@
 			<div class="relative sm:px-6 lg:hidden">
 				<div class="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl"></div>
 				<p class="relative mx-auto max-w-2xl text-base text-white sm:text-center">
-					All of your receipts organized into one place, as long as you don't mind typing in the data by hand.
+					{{ $content['featuresTab2SubTitle'] }}
 				</p>
 			</div>
 			<div class="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
-				<img alt="" src="https://salient.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fexpenses.3f331919.png&w=1200&q=75" width="2174" height="1464" decoding="async" data-nimg="future" class="w-full">
+				<img alt="" src="/img/{{ $content['featuresTab2Img'] }}" width="2174" height="1464" decoding="async" data-nimg="future" class="w-full">
 			</div>
         </section>
 		<!-- Panel 3 -->
@@ -164,11 +164,11 @@
 			<div class="relative sm:px-6 lg:hidden">
 				<div class="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl"></div>
 				<p class="relative mx-auto max-w-2xl text-base text-white sm:text-center">
-					We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.
+					{{ $content['featuresTab3SubTitle'] }}
 				</p>
 			</div>
 			<div class="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
-				<img alt="" src="https://salient.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvat-returns.7402820f.png&w=1200&q=75" width="2174" height="1464" decoding="async" data-nimg="future" class="w-full">
+				<img alt="" src="/img/{{ $content['featuresTab2Img'] }}" width="2174" height="1464" decoding="async" data-nimg="future" class="w-full">
 			</div>
         </section>
 		<!-- Panel 4 -->
@@ -181,11 +181,11 @@
 			<div class="relative sm:px-6 lg:hidden">
 				<div class="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl"></div>
 				<p class="relative mx-auto max-w-2xl text-base text-white sm:text-center">
-					Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.
+					{{ $content['featuresTab4SubTitle'] }}
 				</p>
 			</div>
 			<div class="mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
-				<img alt="" src="https://salient.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freporting.2ad6f065.png&w=1200&q=75" width="2174" height="1464" decoding="async" data-nimg="future" class="w-full">
+				<img alt="" src="/img/{{ $content['featuresTab4Img'] }}" width="2174" height="1464" decoding="async" data-nimg="future" class="w-full">
 			</div>
         </section>
     </div>

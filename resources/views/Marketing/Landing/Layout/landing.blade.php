@@ -46,7 +46,7 @@
             <main>
                 @yield('content')
             </main>
-            <footer class="mt-24 bg-gray-900 sm:mt-12">
+            <footer class="bg-gray-900">
                 @include('Marketing.Landing.Layout.footer')
             </footer>
         </div>

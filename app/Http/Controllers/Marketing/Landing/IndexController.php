@@ -18,9 +18,11 @@ class IndexController extends Controller
         $meta = collect(LandingPage::getMetaData())->first();
         $nav = collect(LandingPage::getNavigationData())->first();
         $content = collect(LandingPage::getIndexData())->first();
+        $testimonials = collect(LandingPage::getTestimonialData())->first();
+        $faqs = collect(LandingPage::getFaqData())->first();
         $footer = collect(LandingPage::getFooterData())->first();
         // Return page data
-        return view('Marketing.Landing.Index.index', compact('meta', 'nav', 'content', 'footer'));
+        return view('Marketing.Landing.Index.index', compact('meta', 'nav', 'content', 'testimonials', 'faqs', 'footer'));
 
     }
 

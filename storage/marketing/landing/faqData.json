@@ -1,0 +1,101 @@
+[
+    {
+        "contentMetaTitle": "FAQs | ",
+        "contentMetaDescription": "FAQ Des",
+        "heroTitle": "Simple Testimaonial",
+        "heroSubTitle": "Try it FREE for 7 days · No credit card required · Save 10% if paid yearly",
+        "faqList":
+        [
+            { 
+                "id": 1, 
+                "question": "What's the best thing about test?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 2, 
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 3, 
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 4, 
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat." 
+            },
+            { 
+                "id": 5, 
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 6, 
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 7, 
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 8, 
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat." 
+            },
+            { 
+                "id": 9, 
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 10,
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 11,
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 12,
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 13,
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 14,
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 15,
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat." 
+            },
+            { 
+                "id": 16,
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 17,
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            },
+            { 
+                "id": 18,
+                "question": "What's the best thing about Switzerland?",
+                "answer": "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat."
+            }
+        ]
+    }
+]

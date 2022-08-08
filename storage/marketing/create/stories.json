@@ -1,0 +1,21 @@
+{
+"stories":
+[
+    { 
+        "image": "/img/worry-free.png",
+        "imageAlt": "Man with no worries",
+        "title": "Worry Free",
+        "subTitle1": "Say goodbye to manually updating your live embed codes and say hello to your new",
+        "subTitle2": "hassle free, one-time, live embed code.",
+        "subTitle3": "Embed just once and you are done. Auto starts every time."
+    },
+    { 
+        "image": "/img/story-church2.png",
+        "imageAlt": "Pastor with microphone",
+        "title": "Church Services",
+        "subTitle1": "Do you live stream church services? Churches all over the world are using VidLive to embed church services on their website.",
+        "subTitle2": "",
+        "subTitle3": "Save time. Reach more parishioners. It's so easy!"
+    }
+]
+}

@@ -3,17 +3,123 @@
         "contentMetaTitle": "VidLive | Embed Live Facebook, YouTube Feed To Your Website",
         "contentMetaDescription": "One Time Embed — Automatically Embed Your Live Facebook, YouTube Stream Video On Your Website. Just Add Our Embed Once and You're Done! Give It A Try.",
         "contentMetaImage": "/landingpage/img/hero-live3.png",
-        "heroTitle1": "Automatically Embed",
-        "heroTitle2": "Live Video",
-        "heroTitle3": "on Your Website",
+        "heroTitle1": "Social",
+        "heroTitle2": "Video Widgets",
+        "heroTitle3": "for Your Website",
         "heroSubTitle": "Copying and pasting embed codes every time you go live is a hassle.",
-        "heroSubTitle2": "Add our embed once and you're done.",
-        "heroSubTitle3": "One Time Embed!",
-        "heroSubTitle4": "Live Demo",
-        "providerImage": "/img/provider-logos.png",
-        "providerImageAlt": "VidLive works with Facebook Live, YouTube Live, and Twitch.",
-        "heroImage": "/img/vidlive-hero-image.png",
-        "heroImageAlt": "VidLive widget example with previous video carousel."
-    }
+        "heroSubTitle2": "Oh... and it works with your ",
+        "heroSubTitle3": "Live",
+        "heroSubTitle4": "Streams too.",
+        "heroImg": "heroImg.jpg",
+        "heroImgAlt": "App screenshot",
+        
+        "providerTitle": "Works with all your favorite social providers",
+        "providerLogo1": "facebook-logo.svg",
+        "providerLogo1Alt": "Facebook",
+        "providerLogo2": "youtube-logo.svg",
+        "providerLogo2Alt": "YouTube",
+        "providerLogo3": "twitch-logo.svg",
+        "providerLogo3Alt": "Twitch",
+        "providerLogo4": "tiktok-logo.svg",
+        "providerLogo4Alt": "TikTok",
+        "providerLogo5": "instagram-logo.svg",
+        "providerLogo5Alt": "Instagram",
+        
+        "featuresTitle": "Everything you need to run your books.",
+        "featuresSubTitle": "Well everything you need if you aren’t that picky about minor details like tax compliance.",
+        "featuresTab1Title": "Payroll",
+        "featuresTab1SubTitle": "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+        "featuresTab1Img": "feature1.webp",
+        "featuresTab2Title": "Claim Expences",
+        "featuresTab2SubTitle": "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+        "featuresTab2Img": "feature2.webp",
+        "featuresTab3Title": "VAT Handeling",
+        "featuresTab3SubTitle": "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+        "featuresTab3Img": "feature3.webp",
+        "featuresTab4Title": "Reporting",
+        "featuresTab4SubTitle": "Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.",
+        "featuresTab4Img": "feature4.webp",
 
+        "moreInfo": "feature4.webp",
+        
+        "ctaTitle": "Get started today",
+        "ctaSubTitle": "It’s time to take control of your books. Buy our software so you can feel like you’re doing something productive.",
+        "ctaButtonText": "Get 7 days free",
+        "ctaButtonLink": "/register",
+        "testimonialTitle": "What they say about ",
+        "testimonialSubTitle": "1000's of people use VidLive daily. Join thousands of churches, instructors, gamers, and more who use VidLive to embed Facebook Live on their website to engage and grow audiences.",
+        "testimonialList1":
+        [
+            { 
+                "id": 5
+            },
+            { 
+                "id": 6
+            },
+            { 
+                "id": 7
+            }
+        ],
+        "testimonialList2":
+        [
+            { 
+                "id": 9
+            },
+            { 
+                "id": 10
+            },
+            { 
+                "id": 12
+            }
+        ],
+        "testimonialList3":
+        [
+            { 
+                "id": 13
+            },
+            { 
+                "id": 15
+            },
+            { 
+                "id": 16
+            }
+        ],
+        "faqTitle": "Frequently asked questions",
+        "faqSubTitle": "Our software is so simple that people can’t help but fall in love with it. Simplicity is easy when you just skip tons of mission-critical features.",
+        "faqFirstQuestion": "Works with 99.9% of the web builders & eCommerce platforms",
+        "faqFirstAnswer": "Add the one time embed code to your webpage. Works with virtually any website or CMS.",
+        "faqFirstAnswerLogo1": "wordpress-logo.png",
+        "faqFirstAnswerLogo1Alt": "WordPress",
+        "faqFirstAnswerLogo2": "wix-logo.png",
+        "faqFirstAnswerLogo2Alt": "Wix",
+        "faqFirstAnswerLogo3": "squarespace-logo.png",
+        "faqFirstAnswerLogo3Alt": "Squarspace",
+        "faqFirstAnswerLogo4": "weebly-logo.png",
+        "faqFirstAnswerLogo4Alt": "Weebly",
+        "faqFirstAnswerLogo5": "godaddy-logo.png",
+        "faqFirstAnswerLogo5Alt": "GoDaddy",
+        "faqFirstAnswerLogo6": "html-logo.png",
+        "faqFirstAnswerLogo6Alt": "HTML",
+        "faqList1":
+        [
+            { 
+                "id": 1
+            },
+            { 
+                "id": 2
+            },
+            { 
+                "id": 3
+            },
+            { 
+                "id": 4
+            },
+            { 
+                "id": 5
+            },
+            { 
+                "id": 6
+            }
+        ]
+    }
 ]

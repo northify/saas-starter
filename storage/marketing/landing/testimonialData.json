@@ -3,6 +3,189 @@
         "contentMetaTitle": "Testimaonial | ",
         "contentMetaDescription": "Testimaonial Des",
         "heroTitle": "Simple Testimaonial",
-        "heroSubTitle": "Try it FREE for 7 days · No credit card required · Save 10% if paid yearly"
+        "heroSubTitle": "Try it FREE for 7 days · No credit card required · Save 10% if paid yearly",
+        "testimonialList":
+        [
+            { 
+                "id": 1, 
+                "testimonial1": "We are a church and our pastor is popular globally. It has allowed us to livestream our services and show them on our website for people who are not on Facebook.",
+                "testimonial2": "", 
+                "author": "Kelly Ling",
+                "business": "Heritage Presbyterian Church",
+                "authorId": "4708",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10164352482300254/picture?type=normal",
+                "websiteUrl": "https://heritagepresbyterianchurch.com/"
+            },
+            { 
+                "id": 2, 
+                "testimonial1": "Before VidLive... after starting a live stream, I had to manually add the embed code to our website every time.",
+                "testimonial2": "This was too much work in a short time before the event began. Now I don't have to worry about it. Fantastic!", 
+                "author": "Silvio Miranda",
+                "business": "Catholic Church of The Holy Trinity",
+                "authorId": "2191",
+                "authorAvatar": "https://graph.facebook.com/v3.3/2884792738223104/picture?type=normal",
+                "websiteUrl": "http://www.holytrinityla.org"
+            },
+            { 
+                "id": 3,
+                "testimonial1": "VidLive has been an essential component to reach those in our group who choose not to be on social media. Being able to stream and push content to our website has been so valuable.", 
+                "testimonial2": "", 
+                "author": "Tim Lee",
+                "business": "Pathway Community Church",
+                "authorId": "926",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10158598636591318/picture?type=normal",
+                "websiteUrl": "http://www.pathwaycc.co/live"
+            },
+            { 
+                "id": 4,
+                "testimonial1": "Your app has been a definite blessing. A number of members do not use Facebook and for that reason, have been unable to watch our livestream services. Now, they can! Thank you!", 
+                "testimonial2": "", 
+                "author": "Joseph Campbell",
+                "business": "South Charlotte Baptist Church & Academy",
+                "authorId": "900",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10159765343264922/picture?type=normal",
+                "websiteUrl": "https://www.southcharlottebaptist.org/live" 
+            },
+            { 
+                "id": 5,
+                "testimonial1": "People can go to our website to watch our live or latest video without the confusion of facebook", 
+                "testimonial2": "", 
+                "author": "Jeff Goin",
+                "business": "Redeemer Lutheran Green Bay",
+                "authorId": "2851",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10217302523296899/picture?type=normal",
+                "websiteUrl": "https://www.redeemerlutherangb.com/Media#LiveStream" 
+            },
+            { 
+                "id": 6,
+                "testimonial1": "People can go to our website to watch our live or latest video without the confusion of facebook.", 
+                "testimonial2": "", 
+                "author": "Steven Antonio, Mary",
+                "business": "Queen of the Apostles Parish - Salem MA",
+                "authorId": "4774",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10224598649334048/picture?type=normal",
+                "websiteUrl": "https://www.mqoa.org"
+            },
+            { 
+                "id": 7,
+                "testimonial1": "VidLive is fantastic. I found it after doing a search for LiveStreaming tools and software and LiveStreaming for cheap, in order to start a LiveStream for our Church.", 
+                "testimonial2": "", 
+                "author": "Kris Kemp",
+                "business": "Royal Palm Presbyterian Church",
+                "authorId": "3546",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10157142639906784/picture?type=normal",
+                "websiteUrl": "https://www.RoyalPalmChurch.org" 
+            },
+            { 
+                "id": 8,
+                "testimonial1": "VidLive allows those who do not like Facebook or who are not confident to use it, view our streamed services. Its great, I do not have to update the website each week.", 
+                "testimonial2": "", 
+                "author": "Simon Crofton",
+                "business": "Holy Rood Church",
+                "authorId": "3681",
+                "authorAvatar": "https://graph.facebook.com/v3.3/166611778300179/picture?type=normal",
+                "websiteUrl": "https://croftonparish.org.uk/live" 
+            },
+            { 
+                "id": 9,
+                "testimonial1": "VidLive helps us embed live-streams to our website for those not directly on Facebook.", 
+                "testimonial2": "The stream to our site is easier for us to share than sending people to our Facebook page.",  
+                "author": "Jason Hugg",
+                "business": "Berks Weekly",
+                "authorId": "3450",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10218073309691962/picture?type=normal",
+                "websiteUrl": "https://berksweekly.com/live" 
+            },
+            { 
+                "id": 10,
+                "testimonial1": "I love being able to point people to our website to view our livestream broadcasts. Super helpful for non Facebook users.", 
+                "testimonial2": "", 
+                "author": "Paul Amlin",
+                "business": "The Water of Life Conference, ELCA",
+                "authorId": "3340",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10163964559445226/picture?type=normal",
+                "websiteUrl": "https://www.lordoflife.online" 
+            },
+            { 
+                "id": 11,
+                "testimonial1": "VidLive automated the process for our church and took away the last minute stress on Sunday Mornings!", 
+                "testimonial2": "", 
+                "author": "Hope Vernon",
+                "business": "Hope Christian Church",
+                "authorId": "3643",
+                "authorAvatar": "https://graph.facebook.com/v3.3/165576598514862/picture?type=normal",
+                "websiteUrl": "https://hopechristianchurch.org/live/" 
+            },
+            { 
+                "id": 12,
+                "testimonial1": "Using VidLive has resulted in a shift from viewers of live-streamed Sunday Mass on FB to our website", 
+                "testimonial2": "", 
+                "author": "Alan J Heavens",
+                "business": "Holy Trinity Episcopal Church",
+                "authorId": "971",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10158114575778490/picture?type=normal",
+                "websiteUrl": "https://www.holytrinity.us" 
+            },
+            { 
+                "id": 13,
+                "testimonial1": "VidLive allows our members without Facebook to view our livestream worship services on our website.", 
+                "testimonial2": "", 
+                "author": "Patti Grayson",
+                "business": "Hilton Presbyterian Church",
+                "authorId": "3144",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10159712264684128/picture?type=normal",
+                "websiteUrl": "https://hiltonpres.org/live" 
+            },
+            { 
+                "id": 14,
+                "testimonial1": "With VidLive, people were able to view the the live stream via my website without having to create a Facebook page.", 
+                "testimonial2": "", 
+                "author": "Christopher Thomas",
+                "business": "RISE HIGH RADIO",
+                "authorId": "710",
+                "authorAvatar": "https://graph.facebook.com/v3.3/259381435146126/picture?type=normal",
+                "websiteUrl": "https://www.risehighradio.com" 
+            },
+            { 
+                "id": 15,
+                "testimonial1": "Every day we stream the daily mass via Facebook Live.", 
+                "testimonial2": "With VidLive we now have a permanent embed streaming Facebook Live to our .org website!", 
+                "author": "Gabriel Gaud Burgos",
+                "business": "Soy Claretiano",
+                "authorId": "3078",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10163395542470114/picture?type=normal",
+                "websiteUrl": "https://soyclaretiano.org"  
+            },
+            { 
+                "id": 16,
+                "testimonial1": "VidLive is great! It allowed us to add an automatic Facebook live stream to our Squarespace website", 
+                "testimonial2": "", 
+                "author": "Malynda Tamang",
+                "business": "River Church of Juniata County",
+                "authorId": "1221",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10102505320694400/picture?type=normal",
+                "websiteUrl": "https://riverchurchjc.org" 
+            },
+            { 
+                "id": 17,
+                "testimonial1": "We needed a reasonably priced way to embed our FB live streaming during COVID. This was the perfect solution for our needs.", 
+                "testimonial2": "", 
+                "author": "Isaac M Chartoff",
+                "business": "Temple Etz Chaim",
+                "authorId": "3874",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10217025297574371/picture?type=normal",
+                "websiteUrl": "https://temple-etzchaim.org/worship/service-live-stream/" 
+            },
+            { 
+                "id": 18,
+                "testimonial1": "VidLive makes it easy to view our FBLIVE worship on our website for those not on Facebook.", 
+                "testimonial2": "", 
+                "author": "Steven Kyle Adair",
+                "business": "Glendale United Methodist Church - Nashvilleh",
+                "authorId": "3092",
+                "authorAvatar": "https://graph.facebook.com/v3.3/10102587263615338/picture?type=normal",
+                "websiteUrl": "https://glendaleumc.org/live" 
+            }
+        ]
     }
 ]

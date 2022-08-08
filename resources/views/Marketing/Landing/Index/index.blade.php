@@ -4,11 +4,15 @@
 
     <!-- Hero section -->
     @include('Marketing.Landing.Index.Sections.hero')
-    <!-- Testimonial/stats section -->
+    <!-- Features section -->
     @include('Marketing.Landing.Index.Sections.features')
-    <!-- Logo cloud section -->
-    @include('Marketing.Landing.Index.Sections.logos')
+    <!-- Extended Features section -->
+    @include('Marketing.Landing.Index.Sections.extendedFeatures')
     <!-- CTA section -->
     @include('Marketing.Landing.Index.Sections.cta')
+    <!-- Works With Logo cloud section -->
+    @include('Marketing.Landing.Index.Sections.testimonials')
+    <!-- Works With Logo cloud section -->
+    @include('Marketing.Landing.Index.Sections.faqs')
 
 @endsection

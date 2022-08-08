@@ -113,6 +113,21 @@ class LandingPage extends Model
     }
 
     /**
+     * Get FAQ data.
+     */
+    public static function getFaqData() 
+    {
+        // Get json data file
+        $json = Storage::disk('marketing')->get('landing/faqData.json');
+        // Get json data
+        $json = json_decode($json, true);
+        // Convert json to array
+        $json = array_filter($json);
+        // Return data
+        return $json;
+    }
+
+    /**
      * Get Privacy data.
      */
     public static function getPrivacyData() 
