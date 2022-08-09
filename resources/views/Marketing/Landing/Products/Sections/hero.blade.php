@@ -1,79 +1,40 @@
-<div class="relative py-24 overflow-hidden">
-	
-	<div class="sm:flex sm:flex-col sm:align-center">
-		<h1 class="text-5xl font-extrabold text-gray-900 sm:text-center">{{ $content['heroTitle'] }}</h1>
-		<p class="mt-5 text-xl text-gray-500 sm:text-center">{{ $content['heroSubTitle'] }}</p>
-	</div>	
-	
-	<div class="mt-24 relative">
-		<div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-		<div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
-			<div>
-			<div>
-				<span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
-				<!-- Heroicon name: outline/inbox -->
-				<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+<div class="max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8 text-center">
+	<div class="text-center">
+		<h1 class="block mb-4 text-4xl text-gray-800 tracking-tight font-bold sm:text-5xl md:text-6xl">
+			{{ $content['heroTitle1'] }}
+			<span class="relative whitespace-nowrap text-gray-800">
+				<svg aria-hidden="true" viewBox="0 0 418 42" class="absolute top-2/3 left-0 h-[0.58em] w-full fill-blue-300/50" preserveAspectRatio="none">
+					<path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z"></path>
 				</svg>
-				</span>
-			</div>
-			<div class="mt-6">
-				<h2 class="text-3xl font-extrabold tracking-tight text-gray-900">Stay on top of customer support</h2>
-				<p class="mt-4 text-lg text-gray-500">Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.</p>
-				<div class="mt-6">
-				<a href="#" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"> Get started </a>
-				</div>
-			</div>
-			</div>
-			<div class="mt-8 border-t border-gray-200 pt-6">
-			<blockquote>
-				<div>
-				<p class="text-base text-gray-500">&ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.&rdquo;</p>
-				</div>
-				<footer class="mt-3">
-				<div class="flex items-center space-x-3">
-					<div class="flex-shrink-0">
-					<img class="h-6 w-6 rounded-full" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
-					</div>
-					<div class="text-base font-medium text-gray-700">Marcia Hill, Digital Marketing Manager</div>
-				</div>
-				</footer>
-			</blockquote>
-			</div>
-		</div>
-		<div class="mt-12 sm:mt-16 lg:mt-0">
-			<div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-			<img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg" alt="Inbox user interface">
-			</div>
-		</div>
-		</div>
+				<span class="relative">{{ $content['heroTitle2'] }}</span>
+			</span>
+			{{ $content['heroTitle3'] }}
+		</h1>
+		<p class="mt-8 max-w-md mx-auto text-xl text-gray-700 font-light md:text-2xl md:max-w-3xl">
+			{{ $content['heroSubTitle'] }}
+		</p>
 	</div>
-	<div class="mt-24">
-		<div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-		<div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
-			<div>
-			<div>
-				<span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
-				<!-- Heroicon name: outline/sparkles -->
-				<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-				</svg>
-				</span>
-			</div>
-			<div class="mt-6">
-				<h2 class="text-3xl font-extrabold tracking-tight text-gray-900">Better understand your customers</h2>
-				<p class="mt-4 text-lg text-gray-500">Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.</p>
-				<div class="mt-6">
-				<a href="#" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"> Get started </a>
+	
+	<div class="mt-12">
+		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5">
+			@foreach($content['products'] as $product)
+			<div class="pt-6">
+				<div class="flow-root rounded-lg bg-gray-50 border">
+					<div class="-mt-6 px-6 pb-6">
+						<div>
+							<span class="inline-flex items-center justify-center rounded-md bg-white p-2 shadow-xl">
+								<img class="h-14 w-14 text-white" src="{{ $product['icon'] }}" alt="{{ $product['iconAlt'] }}">
+							</span>
+						</div>
+					</div>
+					<div class="bg-white text-left rounded-b-lg px-4 pb-8 pt-6">
+						<h3 class="font-medium tracking-tight text-gray-900">{{ $product['title'] }}</h3>
+						<p class="mt-2 text-base text-gray-500">{{ $product['description'] }}</p>
+					</div>
 				</div>
 			</div>
-			</div>
-		</div>
-		<div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-			<div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-			<img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg" alt="Customer profile user interface">
-			</div>
-		</div>
+			@endforeach
+
 		</div>
 	</div>
 </div>

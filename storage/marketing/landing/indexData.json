@@ -40,7 +40,24 @@
         "featuresTab4SubTitle": "Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.",
         "featuresTab4Img": "feature4.webp",
 
-        "moreInfo": "feature4.webp",
+        "moreInfo1Title": "Stay on top of customer support",
+        "moreInfo1SubTitle": "Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.",
+        "moreInfo1ButtonLink": "/register",
+        "moreInfo1ButtonText": "Get Started",
+        "moreInfo1Img": "/img/moreInfo1.jpg",
+        "moreInfo1ImgAlt": "Image Alt",
+        "moreInfo1Testimonial":
+        [
+            { 
+                "id": 5
+            }
+        ],
+        "moreInfo2Title": "Better understand your customers",
+        "moreInfo2SubTitle": "Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.",
+        "moreInfo2ButtonLink": "/register",
+        "moreInfo2ButtonText": "Get Started",
+        "moreInfo2Img": "/img/moreInfo2.jpg",
+        "moreInfo2ImgAlt": "Image Alt",
         
         "ctaTitle": "Get started today",
         "ctaSubTitle": "It’s time to take control of your books. Buy our software so you can feel like you’re doing something productive.",

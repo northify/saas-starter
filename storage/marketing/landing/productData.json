@@ -3,7 +3,42 @@
         "contentMetaTitle": "Products | ",
         "contentMetaDescription": "Products Des",
         "contentMetaImage": "",
-        "heroTitle": "Products",
-        "heroSubTitle": "Try it FREE for 7 days · No credit card required · Save 10% if paid yearly"
+        "heroTitle1": "Social Media ",
+        "heroTitle2": "Video Widgets",
+        "heroTitle3": "",
+        "heroSubTitle": "Start building for free, then add a site plan to go live. Account plans unlock additional features.",
+        "products":
+        [
+            { 
+                "icon": "/img/logos/social/icons/facebook-icon.png",
+                "iconAlt": "Facebook",
+                "title": "Facebook",
+                "description": "All the basics for starting a new business"
+            },
+            { 
+                "icon": "/img/logos/social/icons/youtube-icon.png",
+                "iconAlt": "YouTube",
+                "title": "YouTube",
+                "description": "All the basics for starting a new business"
+            },
+            { 
+                "icon": "/img/logos/social/icons/twitch-icon.png",
+                "iconAlt": "Twitch",
+                "title": "Twitch",
+                "description": "All the basics for starting a new business"
+            },
+            { 
+                "icon": "/img/logos/social/icons/tiktok-icon.png",
+                "iconAlt": "TikTok",
+                "title": "TikTok",
+                "description": "All the basics for starting a new business"
+            },
+            { 
+                "icon": "/img/logos/social/icons/instagram-icon.png",
+                "iconAlt": "Instagram",
+                "title": "Instagram",
+                "description": "All the basics for starting a new business"
+            }
+        ]
     }
 ]

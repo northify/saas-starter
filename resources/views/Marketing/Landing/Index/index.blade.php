@@ -7,7 +7,7 @@
     <!-- Features section -->
     @include('Marketing.Landing.Index.Sections.features')
     <!-- Extended Features section -->
-    @include('Marketing.Landing.Index.Sections.extendedFeatures')
+    @include('Marketing.Landing.Index.Sections.moreInfo')
     <!-- CTA section -->
     @include('Marketing.Landing.Index.Sections.cta')
     <!-- Works With Logo cloud section -->

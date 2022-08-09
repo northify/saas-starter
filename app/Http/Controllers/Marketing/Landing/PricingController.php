@@ -18,9 +18,10 @@ class PricingController extends Controller
         $meta = collect(LandingPage::getMetaData())->first();
         $nav = collect(LandingPage::getNavigationData())->first();
         $content = collect(LandingPage::getPricingData())->first();
+        $faqs = collect(LandingPage::getFaqData())->first();
         $footer = collect(LandingPage::getFooterData())->first();
         // Return page data
-        return view('Marketing.Landing.Pricing.index', compact('meta', 'nav', 'content', 'footer'));
+        return view('Marketing.Landing.Pricing.index', compact('meta', 'nav', 'content', 'faqs', 'footer'));
 
     }
 
