@@ -1,14 +1,9 @@
-@extends('auth.Layout.auth')
+@extends('Marketing.Landing.Layout.landing')
 
 @section('content')
-<div class="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">
-    <div class="sm:mx-auto sm:w-full sm:max-w-md">
-        <a href="{{ route('index') }}">
-            <span class="sr-only">{{ env('APP_NAME') }}</span>
-            <img class="mx-auto h-12 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
-        </a>   
-        <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">Create your account</h2>
-        <p class="mt-3 text-center font-medium text-indigo-600 hover:text-indigo-500"> Start your 7-day free trial </p>
+<div class="min-h-full flex flex-col justify-center pt-28 pb-48 sm:px-6 lg:px-8">
+    <div class="sm:mx-auto sm:w-full sm:max-w-md"> 
+        <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">{{ $content['title'] }}</h2>
     </div>
 
     <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
@@ -47,14 +42,14 @@
 
                 <p class="my-8 text-sm font-medium text-center text-gray-700">
                 By clicking "Create Account" you agree to our <br>
-                <a href="{{-- route('terms') --}}" class="text-purple-700 hover:text-purple-900">Terms of Service</a>
+                <a href="{{ $content['termsLink'] }}" class="text-purple-700 hover:text-purple-900">{{ $content['termsText'] }}</a>
                 and
-                <a href="{{-- route('privacy') --}}" class="text-purple-700 hover:text-purple-900">Privacy Policy</a>.
+                <a href="{{ $content['privacyLink'] }}" class="text-purple-700 hover:text-purple-900">{{ $content['privacyText'] }}</a>.
             </p>
 
                 <div class="text-center">
                     <div class="text-sm">
-                        <a href="{{ route('login') }}" class="font-medium text-indigo-600 hover:text-indigo-500"> Already have an account? </a>
+                        <a href="{{ $content['termsLink'] }}" class="font-medium text-indigo-600 hover:text-indigo-500"> {{ $content['loginText'] }} </a>
                     </div>
                 </div>
             </form>

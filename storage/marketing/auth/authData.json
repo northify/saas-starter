@@ -1,0 +1,51 @@
+[
+    {
+        "slug": "login",
+        "contentMetaTitle": "Login | ",
+        "contentMetaDescription": "Login Des",
+        "contentMetaImage": "",
+
+        "title": "Sign in to your account.",
+        "orRegisterText": "start your 7-day free trial",
+        "orRegisterLink": "/register"
+
+    },
+
+    {
+        "slug": "register",
+        "contentMetaTitle": "Register | ",
+        "contentMetaDescription": "Register Des",
+        "contentMetaImage": "",
+
+        "title": "Start your 7-day Free trial.",
+        "termsLink": "/terms",
+        "termsText": "Terms of Service",
+        "privacyLink": "/privacy",
+        "privacyText": "Privacy Policy",
+        "loginLink": "/login",
+        "loginText": "Already have an account?"
+
+    },
+
+    {
+        "slug": "forgot",
+        "contentMetaTitle": "Forgot | ",
+        "contentMetaDescription": "Forgot Des",
+        "contentMetaImage": "",
+
+        "title": "Forgot your password?",
+        "orRegisterText": "start your 7-day free trial",
+        "orRegisterLink": "/register"
+    },
+
+    {
+        "slug": "reset",
+        "contentMetaTitle": "Reset | ",
+        "contentMetaDescription": "Reset Des",
+        "contentMetaImage": "",
+
+        "title": "Password Reset",
+        "orRegisterText": "start your 7-day free trial",
+        "orRegisterLink": "/register"
+    }
+]

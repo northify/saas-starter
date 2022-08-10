@@ -171,4 +171,5 @@ class LandingPage extends Model
         // Return data
         return $json;
     }
+
 }

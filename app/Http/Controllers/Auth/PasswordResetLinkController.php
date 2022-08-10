@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
+use App\Models\Marketing\LandingPage;
+use App\Models\Marketing\AuthPage;
 
 class PasswordResetLinkController extends Controller
 {
@@ -15,7 +17,13 @@ class PasswordResetLinkController extends Controller
      */
     public function create()
     {
-        return view('auth.forgot-password');
+        // Get page data
+        $meta = collect(LandingPage::getMetaData())->first();
+        $nav = collect(LandingPage::getNavigationData())->first();
+        $content = collect(AuthPage::getAuthData())->where('slug', 'forgot')->first();
+        $footer = collect(LandingPage::getFooterData())->first();
+        // Return page data
+        return view('auth.forgot-password', compact('meta', 'nav', 'content', 'footer'));
     }
 
     /**

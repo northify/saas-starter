@@ -39,6 +39,11 @@
                 "title": "Instagram",
                 "description": "All the basics for starting a new business"
             }
-        ]
+        ],
+
+        "ctaTitle": "Get started today",
+        "ctaSubTitle": "It’s time to take control of your books. Buy our software so you can feel like you’re doing something productive.",
+        "ctaButtonText": "Get 7 days free",
+        "ctaButtonLink": "/register"
     }
 ]

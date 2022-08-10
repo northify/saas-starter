@@ -10,6 +10,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
+use App\Models\Marketing\LandingPage;
+use App\Models\Marketing\AuthPage;
 
 class RegisteredUserController extends Controller
 {
@@ -20,7 +22,13 @@ class RegisteredUserController extends Controller
      */
     public function create()
     {
-        return view('auth.register');
+        // Get page data
+        $meta = collect(LandingPage::getMetaData())->first();
+        $nav = collect(LandingPage::getNavigationData())->first();
+        $content = collect(AuthPage::getAuthData())->where('slug', 'register')->first();
+        $footer = collect(LandingPage::getFooterData())->first();
+        // Return page data
+        return view('auth.register', compact('meta', 'nav', 'content', 'footer'));
     }
 
     /**

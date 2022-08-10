@@ -1,13 +1,9 @@
-@extends('auth.Layout.auth')
+@extends('Marketing.Landing.Layout.landing')
 
 @section('content')
 <div class="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">
-    <div class="sm:mx-auto sm:w-full sm:max-w-md">
-        <a href="{{ route('index') }}">
-            <span class="sr-only">{{ env('APP_NAME') }}</span>
-            <img class="mx-auto h-12 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
-        </a>           
-        <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">Password Reset</h2>
+    <div class="sm:mx-auto sm:w-full sm:max-w-md">        
+        <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">{{ $content['title'] }}</h2>
     </div>
 
     <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">

@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Str;
 use Illuminate\Validation\Rules;
+use App\Models\Marketing\LandingPage;
+use App\Models\Marketing\AuthPage;
 
 class NewPasswordController extends Controller
 {
@@ -20,7 +22,13 @@ class NewPasswordController extends Controller
      */
     public function create(Request $request)
     {
-        return view('auth.reset-password', ['request' => $request]);
+        // Get page data
+        $meta = collect(LandingPage::getMetaData())->first();
+        $nav = collect(LandingPage::getNavigationData())->first();
+        $content = collect(AuthPage::getAuthData())->where('slug', 'reset')->first();
+        $footer = collect(LandingPage::getFooterData())->first();
+        // Return page data
+        return view('auth.reset-password', ['request' => $request], compact('meta', 'nav', 'content', 'footer'));
     }
 
     /**

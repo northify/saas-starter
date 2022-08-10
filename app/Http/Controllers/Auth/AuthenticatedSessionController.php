@@ -7,6 +7,8 @@ use App\Http\Requests\Auth\LoginRequest;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Models\Marketing\LandingPage;
+use App\Models\Marketing\AuthPage;
 
 class AuthenticatedSessionController extends Controller
 {
@@ -17,7 +19,13 @@ class AuthenticatedSessionController extends Controller
      */
     public function create()
     {
-        return view('auth.login');
+        // Get page data
+        $meta = collect(LandingPage::getMetaData())->first();
+        $nav = collect(LandingPage::getNavigationData())->first();
+        $content = collect(AuthPage::getAuthData())->where('slug', 'login')->first();
+        $footer = collect(LandingPage::getFooterData())->first();
+        // Return page data
+        return view('auth.login', compact('meta', 'nav', 'content', 'footer'));
     }
 
     /**

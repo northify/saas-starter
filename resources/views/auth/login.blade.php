@@ -1,22 +1,19 @@
-@extends('auth.Layout.auth')
+@extends('Marketing.Landing.Layout.landing')
 
 @section('content')
-<div class="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+<div class="min-h-full flex flex-col justify-center pt-28 pb-48 sm:px-6 lg:px-8">
     <div class="sm:mx-auto sm:w-full sm:max-w-md">
-        <a href="{{ route('index') }}">
-            <span class="sr-only">{{ env('APP_NAME') }}</span>
-            <img class="mx-auto h-12 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
-        </a>
-        <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign in to your account.</h2>
+        <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">{{ $content['title'] }}</h2>
         <p class="mt-2 text-center text-gray-600">
         Or
-        <a href="{{ route('register') }}" class="font-medium text-indigo-600 hover:text-indigo-500"> start your 7-day free trial </a>
+        <a href="{{ $content['orRegisterLink'] }}" class="font-medium text-indigo-600 hover:text-indigo-500"> {{ $content['orRegisterText'] }} </a>
         </p>
     </div>
 
     <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
             @include('auth.__formErrors')
+            @include('auth.__formSuccessMessage')
             <form method="POST" action="{{ route('login') }}" class="space-y-6"> @csrf
                 <div>
                     <label for="email" class="block text-sm font-medium text-gray-700"> Email address </label>
