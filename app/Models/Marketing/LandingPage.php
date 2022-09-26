@@ -103,7 +103,7 @@ class LandingPage extends Model
     public static function getTestimonialData() 
     {
         // Get json data file
-        $json = Storage::disk('marketing')->get('landing/testimonialData.json');
+        $json = Storage::disk('marketing')->get('testimonialData.json');
         // Get json data
         $json = json_decode($json, true);
         // Convert json to array

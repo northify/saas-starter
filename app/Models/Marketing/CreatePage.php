@@ -29,7 +29,7 @@ class CreatePage extends Model
     {
         
         // Get json data file
-        $json = Storage::disk('marketing')->get('testimonials.json');
+        $json = Storage::disk('marketing')->get('testimonialData.json');
         // Get json data
         $json = json_decode($json, true);
         // Convert json to array

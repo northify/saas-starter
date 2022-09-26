@@ -1,4 +1,4 @@
-<section id="testimonials" class="container px-4 py-8"  x-data="{ testimonialActive: 1 }" x-cloak>
+<section id="testimonials" class="container px-4 py-8"  x-data="{ testimonialActive: {{ $content['testimonialActive'] }} }" x-cloak>
     <div class="w-full md:w-5/6">
         <div class="mb-4 text-center">
             <div class="w-16 h-16 shadow-lg rounded-full bg-white inline-flex items-center justify-center text-white relative z-10">
@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="mb-10 text-center">
-            <span class="text-2xl md:text-3xl text-gray-800 mx-0 px0">{{ $testimonials['testimonialTitle'] }} <span class="font-bold">{{ env('COMPANY_NAME') }}</span></span>
+            <span class="text-2xl md:text-3xl text-gray-800 mx-0 px0">{{ $content['testimonialTitle'] }} <span class="font-bold">{{ env('COMPANY_NAME') }}</span></span>
         </div>
         @foreach($testimonials['testimonialList'] as $testimonial)
             @foreach($content['testimonials'] as $selectedTestimonials)
